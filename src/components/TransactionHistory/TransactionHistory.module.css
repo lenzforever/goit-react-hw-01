@@ -1,25 +1,39 @@
 table {
   border-collapse: collapse;
-  width: 50%;
+  width: 60%;
+  margin: 20px auto;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 table,
 th,
 td {
-  border: 2px solid black;
+  border: 2px solid #333;
 }
 
 th,
 td {
-  height: 30px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
 }
 
-.mainStroke {
-  background-color: rgb(35, 35, 35);
-  color: white;
+.headerRow {
+  background-color: #232323;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-tbody > tr:nth-child(odd) {
-  background-color: rgb(158, 158, 158);
+.transactionRow:nth-child(odd) {
+  background-color: #9e9e9e;
+}
+
+.transactionRow:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.transactionRow:hover {
+  background-color: #d3d3d3;
 }

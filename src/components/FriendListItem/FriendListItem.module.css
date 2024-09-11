@@ -14,10 +14,10 @@
   margin: 8px 0;
 }
 
-.greenText {
+.online {
   color: #2e8b57;
 }
 
-.redText {
+.offline {
   color: #b22222;
 }
